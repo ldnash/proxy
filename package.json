@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "dependencies": {
+    "compression": "^1.2.2",
+    "express": "^4.10.5",
+    "memory-cache": "0.0.5",
+    "pretty-data": "^0.40.0",
+    "request": "^2.51.0",
+    "underscore": "^1.7.0",
+    "pbf": "^1.2.0",
+    "geobuf": "^1.0.1"
+  },
+  "description": "A simple proxy.",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "name": "npmap-proxy",
+  "version": "0.0.0"
+}
