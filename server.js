@@ -8,7 +8,7 @@ var _ = require('underscore'),
   url = require('url');
 
 function before(req, res, next) {
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Length, Content-Type, X-Requested-With');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Length, Content-Type, X-Requested-With, ApiKey, Cache-Control');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
   res.setHeader('Access-Control-Allow-Origin', '*');
 
